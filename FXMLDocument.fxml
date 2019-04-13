@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="454.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="converttodigitalform_javafx.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="34.0" layoutY="73.0" text="Input String:" />
+      <Label layoutX="34.0" layoutY="254.0" text="Output:" />
+      <TextField fx:id="textfield" layoutX="126.0" layoutY="43.0" onAction="#display" prefHeight="80.0" prefWidth="335.0" />
+      <TextArea fx:id="textArea" layoutX="126.0" layoutY="165.0" prefHeight="1000" prefWidth="2000" />
+    </children>
+</AnchorPane>
